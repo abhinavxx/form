@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background colour:#light blue;
+}
+#p
+{
+ margin-top:200px;
+}
+</style>
+<script>
+
+function val()
+{
+  
+  
+var m=document.getElementById('ph').value;
+   var o=document.getElementById('em').value;
+
+  if(m.length<10)
+{
+  alert("Phone number must contain atleast 10 digits");
+  return;
+}else
+  if(o.length==0)
+{
+  alert("Enter Email");
+  return;
+}
+else  
+{
+window.location="thanks.html";
+}
+}
+</script>
+</head>
+<body background="image 2.jpg">
+<center><div id="p" style="height:100%; width:40%; background-color:light grey;">
+<table>
+<form>
+<tr>
+<td>FIRST NAME:</td>
+<td><input type="text" placeholder="in capital letters"></td></tr>
+<tr><td>LAST NAME:</td>
+<td><input type="text" placeholder="in capital letters"></td></tr>
+<td>ROLL NO.</td>
+<td><input type="text" placeholder="enter here"</td></tr>
+<td>EMAIL ID</td>
+<td><input type="text" id="em" placeholder="enter here"></td></tr>
+<td>PHONE NO.</td>
+<td><input type="text" id="ph" required pattern=[0-9]{10}" title="enter 10 digit no." placeholder="10 digit" min="10" max="10"></td></tr>
+<tr><td>AMOUNT:</td>
+<td><input type="text" placeholder="in rupees"></td></tr>
+<td>PAYMENT METHOD:</td>
+<form action=""methods="">
+<td><select input type="text">
+<option value="CREDIT CARD">CREDIT CARD</option>
+<option value="DEBIT CARD">DEBIT CARD</option >
+<option value="PAYTM">PAYTM</option>
+<option value="BHIM/UPI">BHIM/UPI</option>
+ </select></td>
+<text area rows="6" coloumns="3"></text area></br>
+<tr><td><input type="button" value="Submit" onclick="val()"></tr></td>
+</form>
+</table>
+</div>
+</body>
+</html>

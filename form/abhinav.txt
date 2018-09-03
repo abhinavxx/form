@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background colour:#blue;
+}
+</style>
+</head>
+<body>
+<div id="iris" border="1">
+<form id="f">
+<table id="iris" border="1">
+<tr>
+<td>FIRST NAME:</td>
+<td><input type="text" placeholder="in capital letters"></td></tr>
+<tr><td>LAST NAME:</td>
+<td><input type="text" placeholder="in capital letters"></td></tr>
+<td>ROLL NO.</td>
+<td><input type="text" placeholder="enter here"</td></tr>
+<td>EMAIL ID</td>
+<td><input type="text" placeholder="enter here"></td></tr>
+<td>PHONE NO.</td>
+<td><input type="text" placeholder="10 digit" min="10" max="10"></td></tr>
+<td>COURSE:</td>
+<form action=""methods="">
+<td><select input type="text">
+<option value="BTECH">BTECH</option>
+<option value="B.S.C">B.S.C</option>
+<option value="B.C.A">B.C.A</option>
+<option value="M.C.A">M.C.A</option>
+</select></td>
+<tr><td>PAYMENT:</td>
+<td><input type="text" placeholder="in rupees"></td></tr>
+<td>PAYMENT METHOD:</td>
+<form action=""methods="">
+<td><select input type="text">
+<option value="CREDIT CARD">CREDIT CARD</option>
+<option value="DEBIT CARD">DEBIT CARD</option >
+<option value="PAYTM">PAYTM</option>
+<option value="BHIM/UPI">BHIM/UPI</option>
+</select></td>
+<text area rows="6" coloumns="3"></text area></br>
+<tr><td><input type="submit" value="Submit"></tr></td>
+</form>
+</body>
+</html>
